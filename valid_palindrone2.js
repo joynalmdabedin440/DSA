@@ -38,3 +38,5 @@ function isPal(str, l, r) {
     }
     return true;
 }
+//process.on("exit", () => require("fs").writeFileSync("display_runtime.txt", "0"));
+console.log(validPalindrome("abca")); // true
